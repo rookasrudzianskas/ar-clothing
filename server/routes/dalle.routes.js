@@ -16,4 +16,13 @@ router.route('/').get((req, res) => {
   res.status(200).json({ message: "Hello from DALL.E ROUTES" })
 })
 
+router.route('/').post(async (req, res) => {
+  try {
+
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Something went wrong" })
+  }
+})
+
 export default router;
