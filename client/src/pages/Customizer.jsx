@@ -25,11 +25,28 @@ const Customizer = () => {
   })
 
   const generateTabContent = () => {
-
+    switch (activeEditorTab) {
+      case 'colorpicker':
+        return <ColorPicker />
+      case 'filepicker':
+        return <FilePicker file={file} setFile={setFile} readFile={readFile} />
+    }
   }
 
   const handleActiveFilterTab = (tab) => {
 
+  }
+
+  const handleDecals = (type, result) => {
+
+  }
+
+  const readFile = (type) => {
+    reader(file)
+      .then((result) => {
+        handleDecals(type, result);
+        setActiveEditorTab("");
+      })
   }
 
   return (
