@@ -36,5 +36,5 @@ yarn render
 [BackEnd](https://rookas-testing-ar-clothing-backend.onrender.com) - This is backend application
 
 ### The frontend is running here -
-[FrontEnd](https://rookas-testing-ar-clothing-frontend.onrender.com) - This is frontend application
+[FrontEnd](https://rookas-ar-clothing.vercel.app/) - This is frontend application
 
