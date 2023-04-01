@@ -2,7 +2,9 @@ import React from 'react'
 const Tab = ({ tab, isFilterTab, isActiveTab, handleClick }) => {
 
   return (
-    <div></div>
+    <div>
+      Tab
+    </div>
   )
 }
 
